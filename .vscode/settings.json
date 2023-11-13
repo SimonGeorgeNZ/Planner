@@ -22,5 +22,10 @@
    },
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "workbench.colorCustomizations": {
+      "activityBar.background": "#3B2548",
+      "titleBar.activeBackground": "#523365",
+      "titleBar.activeForeground": "#FDFBFD"
+   }
 }
