@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css" />
+
+
+    <title>Planner</title>
+</head>
+
+<body>
+    <h4>Simon</h4>
+    <label for="time">Test </label>
+    <input id="time" type="time">
+    <input onclick="test()" id="timesubmit" type="submit">
+
+    <p id="input"></p>
+
+    <p>
+        {% for a in x %}
+        {{x.One}}
+        {% endfor %}
+    </p>
+
+
+
+
+</body>
+
+</html>
+
+<script src="{{ url_for('static', filename='js/script.js')}}">
+</script>
